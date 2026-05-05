@@ -21,3 +21,34 @@ Clone this repository to your local machine or download the source files into a 
 ```bash
 git clone <your-repository-url>
 cd <repository-name>
+
+### Step 2: Run the Script
+Open your terminal or command prompt in the project's root directory and execute the script using Node.js:
+```bash
+node script.js
+
+## Output Description
+
+After executing the script, a file titled **`output.json`** will be generated in the project root directory. This file contains the final results of the prime collision model.
+
+### Sample Result
+The content of `output.json` will be structured as follows:
+
+```json
+[
+  "1",
+  "2",
+  "BIG",
+  "4",
+  "BANG",
+  "BIG",
+  "7",
+  "8",
+  "BIG",
+  "BANG",
+  "11",
+  "BIG",
+  "13",
+  "14",
+  "BIGBANG"
+]
